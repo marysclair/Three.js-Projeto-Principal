@@ -1,7 +1,7 @@
 {
-  "name": "threeboilerplate",
+  "name": "projeto-oficial",
   "version": "1.0.0",
-  "description": "The Three.js boilerplate that I'm using in my Tutorials.",
+  "description": "Projeto Oficial",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wael Yasmina</title>
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projeto Principal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="h-screen w-full bg-gradient-to-r from-slate-900 to-slate-700 px-[10%] py-[8%]"
+    >
+      <div
+        class="h-full w-full bg-slate-900 rounded-xl shadow-lg flex items-center justify-center relative"
+      >
+        <div id="canvas" class="absolute top-0 bottom-0 left-0 right-0"></div>
+      </div>
+    </div>
     <script src="/main.js" type="module"></script>
-</body>
+  </body>
 </html>
